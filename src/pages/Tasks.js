@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 import * as actions from '../store/actions/index';
 
@@ -31,7 +31,8 @@ const tasks = props => {
               <Route path='/tasks/assigned_to_me' component={Assigned}/>
               <Route path='/tasks' render={() => (
                   <AllTasks todos={props.todos}/>)
-              }/>  
+              }/>
+              <Redirect from="/" to="/tasks"/> 
           </Switch>
       </div>
   );
