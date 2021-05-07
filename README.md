@@ -1,6 +1,6 @@
 # MS TODO CLONE
 
-# The project includes:
+### The project includes:
 
 1. **React**.
 2. **State management** with **Redux**
