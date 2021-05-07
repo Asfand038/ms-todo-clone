@@ -1,0 +1,54 @@
+.Container {
+    display: flex;
+    margin-top: 10px;
+    width: 97%;
+}
+
+.Container button{
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+}
+
+.Container button:first-child {
+    padding: 0 0 10px 17px;
+}
+
+.Container button:last-child {
+    padding-bottom: 9px;
+}
+
+.Container button:focus {
+    outline: none;
+}
+
+.Container form {
+    flex: 10;
+    display: flex;
+}
+
+.Container input[type=text] {
+    border: none;
+    font-size: 0.9rem;
+    padding: 0 0 16px 16px;
+    width: 100%;
+    color: #1b1b1b;
+}
+
+.Container input[type=text]:focus {
+    outline: none;
+}
+
+.Container input[type=text]::-webkit-input-placeholder { 
+    color: #3e69e4; 
+}
+
+.Container input[type=text]:focus::-webkit-input-placeholder {
+    color: #a9a9a9;
+}
+
+.Button {
+    color: #3e69e4;
+    font-size: small;
+    font-weight: 500;
+}

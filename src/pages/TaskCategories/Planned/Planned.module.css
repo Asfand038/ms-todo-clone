@@ -1,0 +1,11 @@
+.Title {
+    margin-top: 60px;
+    color: #3e69e4;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.Content {
+    overflow-y: auto; 
+    height: 78vh;
+}

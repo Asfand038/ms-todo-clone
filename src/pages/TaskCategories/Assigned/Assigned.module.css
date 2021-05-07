@@ -1,0 +1,24 @@
+.Container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Container span:first-child {
+    color: #d3d3d3;
+}
+
+.Container span:last-child {
+    font-size: x-large;
+    color: #808080;
+}
+
+.Title {
+    margin-top: 60px;
+    color: #5ca52d;
+    font-weight: 600;
+    font-size: x-large;
+}

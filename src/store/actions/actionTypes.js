@@ -1,0 +1,10 @@
+export const SET_TASKS = 'SET_TASKS';
+export const ADD_TASK = 'ADD_TASK';
+export const DELETE_TASK = 'DELETE_TASK';
+export const COMPLETE_TASK = 'COMPLETE_TASK';
+export const IMPORTANT_TASK = 'IMPORTANT_TASK';
+export const CHANGE_TITLE = 'CHANGE_TITLE';
+export const MY_DAY_TASK = 'MY_DAY_TASK';
+export const ADD_STEP = 'ADD_STEP';
+export const COMPLETE_STEP = 'COMPLETE_STEP';
+export const DELETE_STEP = 'DELETE_STEP';

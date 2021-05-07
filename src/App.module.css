@@ -1,0 +1,29 @@
+.App {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 2;
+}
+
+.Container {
+  display: flex; 
+}
+
+.Sidenav {
+  height: 100vh;
+  float: left;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.Content {
+  height: 100vh;
+  width: 100%;
+  float: right;
+  position: relative;
+  background-color: white;
+  margin-left: 30px;
+}

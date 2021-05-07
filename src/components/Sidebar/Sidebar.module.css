@@ -1,0 +1,27 @@
+.Sidebar {
+    background-color: #f5f5f5;
+}
+
+.Button { 
+    margin: 70px 0 16px 16px; 
+    cursor: pointer;
+    padding: 4px;
+    width: 32px; 
+    height: 32px; 
+    color: #0275d8;
+    border: none;
+    background-color: inherit;
+}
+
+.Button:hover {
+    background-color: white;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.Menu {
+    background-color: inherit;
+    height: 82vh;
+}

@@ -1,0 +1,30 @@
+.ant-modal-header {
+    border-bottom: none;
+}
+
+.ant-modal-footer {
+    border-top: none;
+}
+
+.ant-btn-dangerous.ant-btn-primary {
+    border: none;
+    background-color: #db3a29;
+    font-weight: bold;
+}
+
+.ant-btn-dangerous.ant-btn-primary:hover {
+    background-color: #8b0000;
+    border: none;
+}
+
+.ant-btn {
+    border: none;
+    background-color: #dedede;
+    font-weight: 600; 
+}
+
+.ant-btn:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: #dedede; 
+}
